@@ -1,0 +1,67 @@
+#btnCancel, #btnChat, #btnChatSend, #btnEmail, #btnEmailSend, #btnEnemy, #btnFriend, #btnHelp, #btnSkype, #btnWhatsApp, #btnWeChat{    
+    background: none; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.btnEmpty , .btnEmpty:hover , .btnEmpty:focus  {
+    background: none; 
+    margin: 0px;
+    padding: 0px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+#btnConversation { 
+    background:none;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+#divConversation { 
+    color: black;      
+    background: lightgray !important;     
+}
+
+#txtConversation {    
+    text-align: left;
+}
+
+#divMessageBox button { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.info {
+    color: #00529B;
+   /* background-color: #BDE5F8;*/
+}
+
+.success {
+    color: #4F8A10;
+    /*background-color: #DFF2BF;*/
+}
+
+.warning {
+    color: #9F6000;
+    /*background-color: #FEEFB3;*/
+}
+
+.error {
+    color: #D8000C;
+    /*background-color: #FFD2D2;*/
+}
+
+.info, .success, .warning, .error {
+    /*margin:10px 22px;*/
+    font-size:1em;
+    /*vertical-align:middle;*/
+}
+
+.hermesWidgetButton {
+    position: fixed;
+  	bottom: 20px;
+    right: 20px; 
+}
